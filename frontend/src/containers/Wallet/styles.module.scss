@@ -1,0 +1,107 @@
+.wallet {
+    margin: 40px 0;
+	margin-bottom: 250px;
+
+    background-image: url("../../assets/images/wallet/bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+
+    .content {
+        border-radius: 15px;
+        padding: 40px 20px;
+        background: #fff;
+        position: relative;
+
+        img {
+            position: absolute;
+            right: 80px;
+            top: 40px;
+            width: 230px;
+        }
+
+        .text {
+            width: 60%;
+
+            h3 {
+                font-size: 32px;
+                font-weight: 500;
+                color: #353945;
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #777E91;
+                margin: 20px 0
+            }
+
+            a {
+                font-size: 14px;
+                padding: 8px 25px;
+                display: inline-block;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .wallet {
+        margin-bottom: 100px;
+
+        img {
+            width: 200px !important;
+        }
+    
+        .text {
+            h3 {
+                font-size: 26px !important;
+            }
+    
+            p {
+                font-size: 14px !important;
+            }
+    
+            a {
+                font-size: 13px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        img {
+            position: absolute !important;
+            right: 40px !important;
+            top: 40px !important;
+            width: 170px !important;
+        }
+
+        .text {
+            width: 60%;
+        }
+    }
+}
+
+@media screen and (max-width: 575px){
+    .content {
+        border-radius: 15px !important;
+        padding: 40px 20px !important;
+        background: #fff !important;
+        position: relative !important;
+        min-height: 550px !important;
+        text-align: center !important;
+
+        img {
+            position: absolute !important;
+            right: 80px !important;            top: 400px !important;
+            width: 140px !important;
+        }
+
+        .text {
+            width: 100% !important;
+        }
+    }
+}

@@ -1,0 +1,197 @@
+.about {
+    background: url("../../assets/images/about/bg.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-top: -100px;
+    padding:200px 12% 0 12%;
+
+    font-family: 'DM Sans';
+
+    .buyToken a {
+        padding: 10px 40px;
+	    border: 1px solid #159B45;
+        font-size: 16px;
+	    font-weight: 500;
+    }
+
+    .tabs {
+        margin: 20px 0;
+
+        div {
+            margin: 8px 5px;
+
+            a {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                color: #777E91;
+                padding: 5px 15px;
+                border-radius: 40px;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.coin {
+    font-family: 'DM Sans';
+
+    .leftText {
+        padding: 25px 0;
+
+        .leftHeading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            h3 {            
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                color: #23262F;
+            }
+
+            a {
+                padding: 8px 30px;
+                border: 1px solid #0074FE;
+                font-size: 16px;
+                font-weight: 500;
+
+                i {
+                    margin-left: 10px;
+	                transition: 0.2s ease-out;
+                }
+            }
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: #777E91;
+        }
+    }
+
+    .aboutText {
+        font-family: 'Poppins';
+        font-style: normal;
+        h4 {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 27px;
+            color: #23262F;
+        }
+        p {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 22px;
+            color: #777E91;
+        }
+    }
+}
+
+.team {
+    margin-top: 30px;
+    position: relative;
+}
+
+.toggleViewMode {
+    text-align: center;
+    margin-top: 50px !important;
+
+    button {
+        padding: 7px 30px !important;
+
+        font-size: 16px;
+    }
+}
+
+.tokenomics {
+    .detail {
+        display: flex;
+        align-items: center;
+        margin: 15px 0px;
+        margin-right: 10px;
+
+        img {
+            width: 20px;
+	        height: 20px;
+        }
+
+        h6 {
+            font-size: 13px;
+            font-weight: 500;
+            color: #888D9D;
+            text-transform: capitalize;
+            margin: 0 3px;
+            margin-right: 4px;
+        }
+    }
+
+    .img {
+        margin: 30px 0;
+        width: 60%;
+    }
+
+    .content {
+        margin: 20px 0;
+
+        h4 {
+            font-size: 24px;
+            color: #092853;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            color: #888D9D;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .img {
+        width: 90% !important;
+        margin: auto !important;
+    }
+}
+
+@media screen and (max-width: 575px){
+
+    .coin {
+        text-align: center;
+
+        .leftHeading {
+            h3 {
+                font-size: 26px !important;
+            }
+
+            a {
+                padding: 6px 20px !important;
+                font-size: 14px !important;
+                margin-top: 10px !important;
+                font-weight: 500 !important;
+            }
+        }
+
+        p {
+            font-size: 14px  !important;
+	        line-height: 1.3  !important;
+        }
+    }
+
+    .tabs {
+        margin: 40px 0;
+	    margin-bottom: 50px;
+        justify-content: center;
+    }
+}

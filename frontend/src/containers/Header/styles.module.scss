@@ -1,0 +1,154 @@
+.wrapper {
+	overflow: hidden;
+
+	img {
+		width: 120px !important;
+	}
+}
+
+.mobileMenuOpener {
+	span {
+		font-size: 20px;
+		cursor: pointer;
+	}
+}
+
+.header {
+	background: #FCFCFD;
+	padding: 4px 10px;
+	border-bottom: 1px solid #8888;
+	// position: relative;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999999;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 16px;
+	font-family: 'DM Sans';
+	font-weight: 500;
+	color: #777E91;
+
+	ul{
+		a {
+			color: inherit;
+		}
+
+		a:hover{
+			color: #23262F;
+		}
+
+		li {
+			margin: 0 12px;
+		}
+
+		.dropdown {
+			margin: 0 12px;
+			
+			a {
+				font-size: 16px;
+				display: block;
+				padding: 0px;
+			}
+
+			a::after {
+				display: none;
+			}
+
+			div {
+				border-radius: 5px;
+				padding: 8px;
+			}
+		}
+	}
+
+	.rightNav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.select > div {
+			&:nth-child(3) {
+				border-radius: 100px;
+				margin-right: 10px;
+			}
+		}
+
+		a{
+			padding: 6px 25px;
+			margin: 0 5px;
+		}
+	}
+}
+
+.mobile {
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 350px;
+	height: 100vh;
+	z-index: 9999999;
+	background: #fff;
+	padding: 40px 20px;
+
+	.mobileClose {
+		margin-bottom: 40px;
+
+		i {
+			font-size: 20px;
+			cursor: pointer;
+		}
+	}
+
+	.mobileMenu {
+		ul li {
+			margin: 5px 0;
+
+			a {
+				font-size: 15px;
+				font-weight: 400;
+				color: #777E91;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				&:active {
+					color: #23262F;
+				}
+			}
+		}
+
+		.mobileRightNav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin: 20px 0;
+			border-top: 1px solid #8888;
+			padding-top: 10px;
+
+			a {
+				padding: 4px 15px;
+				border-radius: 20px;
+				font-size: 14px;
+				font-weight: 400;
+				display: inline-block;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+.showMobileMenu {
+	right: 0 !important;
+}
+
+@media screen and (max-width: 575px) {
+	.mobile {
+		width: 100%;
+	}
+}

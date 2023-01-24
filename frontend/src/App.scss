@@ -1,0 +1,91 @@
+/*DM SANS FONT	*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/*	POPPINS	*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #FAFBFF;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+  outline: none !important;
+}
+
+img {
+  visibility: initial !important;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.section-title h2 {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 48px;
+  margin: 20px 0;
+  letter-spacing: -0.02em;
+  color: #23262F;
+}
+
+.btn-fill {
+  color: #fff;
+  background: #0074FE;
+  border: 1px solid #0074FE;
+  border-radius: 40px;
+}
+
+.btn-fill:hover {
+  color: #0074FE;
+  background: transparent;
+}
+
+.btn-fill-green {
+  color: #fff;
+  background: #159B45;
+  border: 1px solid #159B45;
+  border-radius: 40px;
+}
+
+.btn-fill-green:hover {
+  color: #159B45;
+  background: transparent;
+  border: 1px solid #159B45;
+}
+
+.btn-unfill {
+  color: #23262F;
+  background: transparent;
+  border: 1px solid #777E91;
+  border-radius: 40px;
+}
+
+.btn-unfill:hover {
+  color: #fff;
+  background: #0074FE;
+  border: 1px solid #0074FE;
+}
+
+@media screen and (max-width: 767px){
+  .section-title h2{
+    font-size: 32px;
+  }
+}

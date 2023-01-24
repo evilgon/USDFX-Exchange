@@ -1,0 +1,100 @@
+.faq {
+    &__question {
+        border: none;
+        background: transparent;
+        margin: 5px 0;
+    }
+
+    &__question-header {
+        background: #fff;
+        border-radius: 10px;
+        border-bottom: none;
+        box-shadow: 0px 21.492px 47.7601px rgba(74, 83, 188, 0.03);
+        backdrop-filter: blur(10.6914px);
+    }
+  
+    &__question-button {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 162%;
+        color: #777E91;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 20px 20px;
+    
+        &::after {
+            content: url(../../assets/images/global/icon-arrow-down.svg);
+            margin-right: 17px;
+            transform: rotate(-90deg) scale(1.5);
+        }
+    
+        &:hover {
+            color: #282337;
+        }
+    }
+  
+    &__desc {
+        width: 90%;
+        margin: auto;
+
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 0;
+        overflow: hidden;
+        transition: all 200ms ease-out;
+        // padding: 15px 0;
+        background: rgba(255,255,255,0.8) !important;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        // transform: translateY(-10px);
+        // position: relative;
+        // overflow: all;
+        // z-index: -1;
+        padding-bottom: 20px;
+
+        p {
+            visibility: hidden;
+        }
+    }
+}
+
+.faq__question-button.show-description {
+    color: #282337;
+}
+
+.faq__desc.show-description {
+    height: 100px;
+    margin-bottom: 15px;
+    p {
+        visibility: visible !important;
+        padding: 20px 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgba(96, 98, 121, 0.82);
+    }
+}
+  
+/* Arrows */
+
+/* closed */
+.faq__question-button::after {
+    transition: transform 250ms ease-out;
+}
+
+/* open */
+.show-description::after {
+    transform: rotate(0deg) scale(1.5);
+}
+  
+  

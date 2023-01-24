@@ -1,0 +1,113 @@
+.banner {
+    margin-top: 250px;
+	padding: 0px 50px;
+	padding-left: 12%;
+	position: relative;
+
+    font-family: 'DM Sans';
+	color: #23262F;
+
+    background-image: url("../../assets/images/banner/bg.png");
+    background-size: cover;
+
+    .bannerContent {
+        h1 {
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 64px;
+            letter-spacing: -0.02em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 1.4;
+            color: #777E91;
+            margin: 20px 0;
+        }
+
+        .button {
+            margin: 30px 0;
+
+            a {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 12px 32px;
+                display: inline-block;
+            }
+        }
+
+        .down {
+            display: flex;
+	        justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            width: 40px;
+	        height: 40px;
+            border-radius: 50%;
+	        border: 1px solid #777E91;
+
+            color: #777E91;
+        }
+    }
+
+    .multichain {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .bannerContent {
+        h1{
+            font-size: 35px !important;
+            line-height: 1.5 !important;
+        }
+
+        p{
+            font-size: 24px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+    .bannerContent {
+        margin-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bannerContent {
+        h1{
+            font-size: 34px !important;
+            line-height: 20px !important;
+        }
+
+        p{
+            font-size: 18px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 575px){
+    .bannerContent {
+        text-align: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 32px !important;
+            line-height: 1 !important;
+        }
+
+        p {
+            font-size: 18px !important;
+        }
+    }
+
+    .down {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

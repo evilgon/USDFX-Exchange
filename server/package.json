@@ -1,0 +1,9 @@
+{
+  "name": "usdfx_react_server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "trongrid": "^1.2.6",
+    "tronweb": "^4.3.0"
+  }
+}

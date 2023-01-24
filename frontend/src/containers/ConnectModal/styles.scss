@@ -1,0 +1,31 @@
+.modal-dialog-centered {
+    justify-content: center;
+}
+
+.modal-content {
+    border-radius: 15px;
+    padding: 50px;
+    max-width: 450px;
+    border: none;
+
+    background: linear-gradient(180deg, #ECF7FF 16.36%, rgba(245, 251, 255) 98.17%), linear-gradient(257.35deg, rgba(255, 255, 255) 0%, rgba(255, 255, 255) 51.56%, rgba(255, 255, 255) 100%);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 73.284px 99.6587px rgba(29, 87, 175, 0.13), 0px 6.49948px 32.4974px rgba(108, 108, 128, 0.06), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wallet-connect-modal {
+    margin-top: 30px;
+}
+
+.wallet-connect-wrapper {
+    text-align: center;
+
+    h1 {
+        font-family: 'DM Sans';
+        margin-bottom: 20px;
+    }
+}
+
+.card-payment {
+    margin-top: 50px;
+}

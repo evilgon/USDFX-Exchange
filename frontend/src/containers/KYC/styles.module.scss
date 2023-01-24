@@ -1,0 +1,25 @@
+.kyc {
+    padding: 50px 12%;
+
+    background-image: url("../../assets/images/kyc/coin.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+
+    font-family: 'DM Sans';
+	color: #23262F;
+
+    h1 {
+        padding: 40px 0;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    > div{
+        margin-bottom: 40px;
+    }
+
+    .spliter {
+        border-top: 2px hsl(224, 11%, 52%, 0.2) solid;
+    }
+}

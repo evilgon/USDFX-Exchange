@@ -1,0 +1,226 @@
+.buyToken {
+    padding: 40px;
+    margin-top: 100px;
+
+    background-image: url("../../assets/images/tokensale/bg.png");
+    background-size: cover;
+
+    .text {
+        h1 {
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 64px;
+            letter-spacing: -0.02em;
+            margin-top: 10px;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1.4;
+            color: #777E91;
+            margin-top: 20px;
+        }
+
+        h3 {
+            padding-bottom: 10px;
+            padding-right: 10px;
+            font-size: 20px;
+            color: #404757;
+        }
+
+        span {
+            font-size: 40px;
+            font-weight: bold;
+            color: #00BC4B;
+        }
+
+        .buyButton {
+            margin: 30px 0;
+            margin-right: 10px;
+
+            a {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 12px 32px;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+
+        .createButton {
+            margin: 30px 0;
+
+            a {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 12px 32px;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+
+    .phone {
+        min-width: 450px;
+        margin: 40px;
+        margin-top: -30px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color: rgb(245, 245, 245);
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+        .title {
+            color: #1C2439;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .rate {
+            color: #0B3EC1;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .connectButton {
+            margin-bottom: 10px;
+            padding: 5px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            span {
+                // min-width: 300px;
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .wallet {
+                width: 20px;
+                height: 20px;
+                // margin-left: 10px;
+            }
+
+            .card {
+                width: 25px;
+                height: 25px;
+                // margin-left: 40px;
+            }
+        }
+
+        p {
+            color: #6C7488;
+            font-size: 15px;
+        }
+        
+        .inputGroup {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            // margin: 0px 15px;
+            margin-bottom: 15px;
+            
+            .left {
+                border-right: 1px #404757 solid;
+            }
+    
+            .input {
+                color: #979BA4;
+                font-size: 28px;
+                font-weight: bold;
+                align-items: baseline;
+    
+                input {
+                    border: none;
+                    background-color: inherit;
+                    padding: 0 10px;
+                    color: #979BA4;
+
+                    width: -webkit-fill-available;
+                    
+                    &:focus {
+                        color: #979BA4;
+                    }
+                }
+            }
+
+            .right {
+                .coin {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                h2 {
+                    line-height: 0;
+                }
+
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .info {
+            background-color: #fff;
+            padding: 10px 15px;
+            color: #212529;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .text {
+        h1 {
+            font-size: 35px !important;
+        }
+
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .phone {
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .phone {
+        margin: auto -20px !important;
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .phone {
+        min-width: 0 !important;
+        margin: auto -40px !important;
+        margin-top: 50px !important;
+    }
+}
+
+.confirm {
+    margin-top: 15px;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:disabled {
+        background-color: #777E91;
+        color: #fff;
+        border: #777E91;
+    }
+}

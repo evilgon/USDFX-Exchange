@@ -1,0 +1,91 @@
+
+.roadmap .roadmap-content .roadmap-text{
+	text-align: center;
+	width: 15%;
+	font-family: 'Poppins';
+	font-style: normal;
+}
+.roadmap .roadmap-content .roadmap-text h3{
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.4;
+	margin: 15px 0;
+	color: #23262F;
+}
+.roadmap .roadmap-content .roadmap-text h5{
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 1.3;
+	color: #23262F;
+	margin: 15px 0;
+}
+
+.roadmap .roadmap-content .roadmap-text p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #23262F;
+}
+
+.roadmap-content-top{
+	transform: translateX(-6%);
+}
+
+.roadmap-content-bottom{
+	transform: translateX(6%);
+}
+
+
+@media screen and (max-width: 991px){
+
+    .roadmap .roadmap-content .roadmap-text h3{
+        font-size: 26px;
+    }
+    .roadmap .roadmap-content .roadmap-text h5{
+        font-size: 14px;
+    }
+
+    .roadmap .roadmap-content .roadmap-text p{
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px){
+    .roadmap .roadmap-content .roadmap-text{
+        width: 20%;
+    }
+    .roadmap .roadmap-content .roadmap-text h3{
+        font-size: 18px;
+    }
+    .roadmap .roadmap-content .roadmap-text h5{
+        font-size: 12px;
+    }
+
+    .roadmap .roadmap-content .roadmap-text p{
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 425px){
+    .roadmap .roadmap-content .roadmap-text{
+        width: 23%;
+    }
+    .roadmap .roadmap-content .roadmap-text h3{
+        font-size: 14px;
+    }
+    .roadmap .roadmap-content .roadmap-text h5{
+        font-size: 10px;
+    }
+
+    .roadmap .roadmap-content .roadmap-text p{
+        font-size: 10px;
+    }
+
+}

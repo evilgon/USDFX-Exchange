@@ -1,0 +1,59 @@
+.card {
+    width: 100%;
+    padding: 25px 25px;
+    
+    box-shadow: 0px -5px 60px -35.8571px rgba(76, 87, 109, 0.5);
+    border-radius: 10px;
+
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+
+    img {
+        width: 45px !important;
+    }
+
+    a {
+        padding: 3px 7px;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 12px;
+        display: inline-block;
+
+        background: #159B45;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 14px;
+        color: #777E91;
+        margin: 10px 0;
+    }
+}
+
+.color0 {
+    background: #E3FEFC;
+}
+
+.color1 {
+    background: #F9E9FF;
+}
+
+.color2 {
+    background: #D0E0FF;
+}
+
+.color3 {
+    background: #FFF2C6;
+}
+
+.color4 {
+    background: #FFD7D7;
+}
+
+.color5 {
+    background: #DBDDE7;
+}
